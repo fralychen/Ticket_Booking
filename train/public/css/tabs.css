@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body .left-tab {
+  width: 34px;
+  height: 83px;
+  background-color: #0066CC;
+}
+body .calender {
+  width: 90px;
+  height: 45px;
+  background-color: #4cae4c;
+  margin-top: 20px;
+}
+body .body-content {
+  width: 920px;
+  border: 1px solid chartreuse;
+  margin-left: 14px;
+}
+body .righ-tab {
+  width: 34px;
+  height: 83px;
+  background-color: #0066CC;
+}
+body .tab-content {
+  width: 885px;
+  height: 83px;
+  border: 1px solid chartreuse;
+  margin-left: -64px;
+}
+body .tab-content .date {
+  display: block;
+  width: 93px;
+  height: 82px;
+  border: 1px solid chartreuse;
+}
+body .tab-content .date a {
+  margin-top: 5px;
+  border: none;
+  margin-left: 15px;
+}
+body .tab-content .date .week {
+  color: #ce8483;
+  margin-left: 30px;
+  margin-top: -4px;
+}
+body .content {
+  height: 20px;
+  font-size: 15px;
+  width: 1000px;
+}
+body .content a {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #1a1a1a;
+}
+body .content a:hover {
+  color: #4FB6F1;
+}
+body .content .checi {
+  margin-left: 62px;
+}
+body .content .sit {
+  margin-left: 62px;
+}
+body .content .screen {
+  margin-left: 150px;
+  color: #5cb85c;
+}
+body .content .colorSigin {
+  color: #4FB6F1;
+}
+body .content span {
+  color: #999999;
+}

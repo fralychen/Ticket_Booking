@@ -1,0 +1,80 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+/* 覆盖 */
+ul,li { list-style: none; padding: 0; margin: 0}
+/* 轮播 */
+.am-slider-a1 .am-control-nav li { position: relative;}
+.am-slider-a1 .am-control-nav li a { background: #bcbcbc; opacity: .5;  }
+.am-slider-a1 .am-control-nav li a:hover {}
+.am-slider-a1 .am-control-nav li a.am-active { background: #bcbcbc;-webkit-box-shadow:none;box-shadow:none;  opacity: 1;}
+.am-slider-a1 .am-control-nav {bottom: 18px; z-index: 2;}
+.pet_slider_shadow { position: absolute;  background: url('../../img/mobile/flshadow.png') bottom no-repeat; -webkit-background-size: 100%;
+background-size: 100%; width: 100%; height: 100%; bottom: 0; left: 0; z-index: 1;}
+.pet_slider_font {position: absolute; bottom: 35px; left: 20px; z-index: 8; color: #fff;}
+.pet_slider_emoji { display: block; font-size: 12px; }
+
+#form{margin:23px 0}
+.footer{
+position: fixed;
+  bottom: auto;
+}
+dnf{color: orange;font-size:1em;font-weight:800;}
+table{
+color:white;
+text-align: justify;
+}
+/*#dptCode{font-family:"agency fb"}*/
+/*trian*/
+.trian_qu{position:relative;bottom:2px;background-image: url('../../img/mobile/qu.png');width: 32px;height: 32px;}
+.trian_on{position:relative;top:10px;color:black;}
+.trian_form_info{display:block;}
+.trian_to_info{display:block;}
+.trian_to_money{display:block;}
+.trian_to_order{position:relative;top:10px;}
+.trian_date{font-size:16px;}
+.trian_city{position:relative;left:12px;font-size:16px;}
+.trian_take{position:relative;bottom:15px;color:#BCBCBC;font-size:13px;}
+.trian_to_xiadan{position:relative;left:20px;}
+.trian_to_zuoci{display: inline-block;}
+.xiadan{font-weight: 2;}
+/*城市*/
+.oreder_city{font-size:1em;}
+.oreder_time{font-size:2em;}
+.oreder_timesum{position: relative;bottom:10px;left:13px;}
+/*火车票订单详情details*/
+/*经停站背景图*/
+.oreder_jingtingzhan{position:relative;bottom:30px;width:105px;height:30px;background: url("../../img/mobile/jingtingzhan.png") no-repeat;}
+.order_img{background:url("../../img/mobile/bg.jpg") no-repeat;}
+.order_jiage{position:relative;top:22px;left:25px;}
+
+.details_jingtingzhan{position:relative;top:15px;width:105px;height:30px;background: url("../../img/mobile/jingtingzhan.png") no-repeat;}
+.details_checi{position:relative;top:30px;left:23px;}
+/*取消订单*/
+.detais_input{width:100%;text-align:center;}
+/*车票信息背景图片*/
+  .detais_img{position:relative;top:15px;background: url("../../img/mobile/checixingxi.png") no-repeat;}
+  .details_chepiaoxingxi{position:relative;bottom:10px;right:8px;font-size:0.1em;color:white;}
+  /*detail面板*/
+.detais_panel{position:relative;bottom:40px;width:96%;left:2%;border-radius:6px;}
+/*待支付*/
+
+.detais_daizhifu{margin:6px 8px;color:orangered;letter-spacing:3px;}
+.detais_zhuoci{margin:6px 8px;display: inline-block;}
+.details_piaoright{position:relative;bottom:55px;}
+.details_piaoright p:last-child{position:relative;bottom:10px;font-size:0.9em;color:#BCBCBC;}
+.details_username{position:relative;bottom:5px;}
+/*pay*/
+h4{letter-spacing:3px;margin: 2px;}
+.pay_panle dl{border-radius:6px;}
+.pay_fukuan h4 {display: inline-block;}
+.pay_fukuan p {color: #BCBCBC;}
+.pay_cdtime p{color:#BCBCBC;}
+.pay_name{color: #000000;padding: 22px;}
+.pay_zhifucheci{color:#BCBCBC;font-size:0.95em;}
+/*add*/
+.am-panel-default form input{
+ border:none;
+}
+
+

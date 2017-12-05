@@ -1,0 +1,78 @@
+/*头部*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    background:white;
+    height:90px;
+}
+/*面板*/
+#panel1{
+    border:solid 3px #00aeef;
+}
+#panel1 table td{
+  margin: 0 auto;
+}
+#img_huoche{
+   padding-right:30px;
+}
+.zuoci{
+    background-color: #00aeef;
+    border:2px solid orange;
+}
+
+/*温馨提示*/
+#gengduo{
+    color:green;
+}
+/*结算*/
+#jiage{
+    margin-left:50%;
+}
+dnf{
+    color: orange;
+}
+ #dingdan dnf{
+     color: orange;
+     font-size: 20px;
+}
+ .yanzheng{
+     margin-top:15px;
+    margin-left: 120px;
+ }
+.yanzheng input{
+    height: 28px;
+}
+.crumbs a{
+    text-decoration: none;
+    font-size:18px;
+    color: #00b3ee;
+}
+
+/*底部*/
+footer{position:absolute;bottom:0;width:100%;height:100px;}
+.footer { padding-bottom:20px;  background:#FFFFFF;}
+.footer .bz { padding: 40px 0; overflow: hidden; }
+.footer .bz li { float: left; display: block; width:148px; text-align:center }
+.footer .bz li a { display: block; margin: 0 auto; margin-bottom: 5px; transition: all .2s linear; width: 64px; height: 73px; }
+.footer .bz li:hover a { -webkit-transform: rotate(360deg); }
+.footer .bz li p { font-size: 16px; margin-left:10px;}
+.footer .btm_nav { height: 44px; background:#222222; line-height: 44px; color:#2D323B; text-align: center; }
+.footer .btm_nav a,
+.footer .btm_nav a:visited { font-size: 1.5em; margin: 0 10px; color: #ccc; transition: all .2s linear; }
+.footer .btm_nav a:hover { color: #fff; text-decoration: none; }
+.footer .btm_info { text-align: center; width:100%; height:auto; margin:0 auto; overflow:hidden;}
+.footer .btm_info p.a_tag { color: #ccc; margin-bottom:10px; }
+.footer .btm_info p.a_tag a,
+.footer .btm_info p.a_tag a:visited { margin: 0 5px; color: #ccc; }
+.footer .btm_info p.a_tag a:hover { color: #f80; }
+.footer .btm_info .ba { font-size: 1.2em; color: #666; padding: 15px 0; line-height:25px;text-align: center }
+.footer .btm_info .btm_info_img { width: 714px; margin: 0 auto; margin-bottom: 20px }
+.footer .btm_info .btm_info_img img { width: 107px; height: 48px; display: block; float: left; border: 1px solid #ddd; margin-left: 10px; }
+.mt20 {
+    margin-top: 20px;
+}
+
+

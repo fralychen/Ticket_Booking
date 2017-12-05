@@ -1,0 +1,81 @@
+#pull-left{
+    margin-top:2%;
+}
+#pull-right{
+    margin-top:2%;
+}
+#pull-right span:nth-child(1){
+font-size: 20px;
+    color:#00A1CB;
+}
+#pull-right span img:nth-child(2){
+ position: fixed;
+    margin-right:90%;
+}
+.container{
+    width: 100%;
+    height:80px;
+}
+.section{
+    width:100%;
+    height:100px;
+    bottom: 100px;
+}
+
+/*#progress{
+    width: 80%;
+    height:50%;
+    margin-left:10%;
+}*/
+.ticket{
+    display:inline-table;
+}
+.tib-time{
+    font-size: 18px;
+}
+.section{
+    width: 60%;
+    height:50%;
+    margin-left:20%;
+}
+#panel{
+    width: 60%;
+    height:300px;
+    top:10%;
+    margin-left:20%;
+}
+.tib-title{
+font-size: 16px;
+}
+.tib-date{
+    font-size:12px;
+}
+.tib-num{
+    font-size: 16px;
+}
+.tib-detail{
+    width: 200px;
+}
+/*个人信息*/
+#panel1{
+    width:60%;
+    height:200px;
+    margin-left:20%;
+}
+#ticket-form input{
+    text-align: center;
+}
+#panel2{
+    width: 80%;
+    height:50%;
+    margin-left:20%;
+}
+#one{
+    text-align: center;
+}
+#from-input{
+    text-align:center;
+}
+.ui1{
+    line-height:20px;
+}

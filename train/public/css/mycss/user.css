@@ -1,0 +1,64 @@
+/*头部*/
+*{
+    margin:0px;
+    padding:0px;
+}
+.tbody{
+    width: 100%;
+    height: 600px;
+
+}
+#userMessage{
+    text-align: center;
+    margin-top: 8px;
+}
+#img-train{
+    margin-left: 15px;
+}
+
+.navbar{
+    background:white;
+    height:90px;
+}
+/*左侧*/
+#pull-left #nav{
+    background:green;
+}
+.main .pull-right{
+    color: #00aeef;
+    font-size: 30px;
+}
+/*右侧*/
+#delete img:hover{
+    cursor:pointer;
+}
+.navbar p{
+    font-family: "微软雅黑", Arial;
+    color: #8a6d3b;
+    font-size:25px;
+    margin-top:20px;
+    margin-left:220px;
+}
+/*底部*/
+footer{position:absolute;bottom:0;width:100%;height:100px;background-color: #ffc0cb;}
+.footer { padding-bottom:20px;  background:#FFFFFF;}
+.footer .bz { padding: 40px 0; overflow: hidden; }
+.footer .bz li { float: left; display: block; width:148px; text-align:center }
+.footer .bz li a { display: block; margin: 0 auto; margin-bottom: 5px; transition: all .2s linear; width: 64px; height: 73px; }
+.footer .bz li:hover a { -webkit-transform: rotate(360deg); }
+.footer .bz li p { font-size: 16px; margin-left:10px;}
+.footer .btm_nav { height: 44px; background:#323232; line-height: 44px; color:#2D323B; text-align: center; }
+.footer .btm_nav a,
+.footer .btm_nav a:visited { font-size: 1.5em; margin: 0 10px; color: #ccc; transition: all .2s linear; }
+.footer .btm_nav a:hover { color: #fff; text-decoration: none; }
+.footer .btm_info { text-align: center; width:100%; height:auto; margin:0 auto; overflow:hidden;}
+.footer .btm_info p.a_tag { color: #ccc; margin-bottom:10px; }
+.footer .btm_info p.a_tag a,
+.footer .btm_info p.a_tag a:visited { margin: 0 5px; color: #ccc; }
+.footer .btm_info p.a_tag a:hover { color: #f80; }
+.footer .btm_info .ba { font-size: 1.2em; color: #666; padding: 15px 0; line-height:25px;text-align: center }
+.footer .btm_info .btm_info_img { width: 714px; margin: 0 auto; margin-bottom: 20px }
+.footer .btm_info .btm_info_img img { width: 107px; height: 48px; display: block; float: left; border: 1px solid #ddd; margin-left: 10px; }
+
+
+

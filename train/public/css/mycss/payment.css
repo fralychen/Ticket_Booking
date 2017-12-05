@@ -1,0 +1,14 @@
+/*头部*/
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    background:white;
+    height:90px;
+}
+.crumbs a{
+    text-decoration: none;
+    font-size:18px;
+    color: #00b3ee;
+}

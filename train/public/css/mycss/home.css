@@ -1,0 +1,224 @@
+* { margin: 0; padding: 0 }
+html, body { color: #666; background: #fff; }
+body, button, input, select, textarea { font-family: "微软雅黑", Arial; line-height: 24px; color: #222; font-size: 13px;}
+table { border-collapse: collapse; border-spacing: 0 }
+img { border: 0; line-height: 0; }
+em, b, i { font-style: normal; font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 { font-size:100%;font-weight:500 }
+q:before, q:after { content: '' }
+a { outline: 0; blr:expression(this.onFocus=this.blur();)
+}
+.clearfix{
+    zoom:1;
+}
+.clearfix:before, .clearfix:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0 }
+input:focus, select:focus, textarea:focus, area { outline: none; }
+a, a:visited { color: #666; text-decoration: none; }
+a:hover { color:#26a867; text-decoration: underline; }
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; font-size: 0; line-height: 0; }
+/*模态框*/
+.myMP{margin: 20px;}
+.myB{margin-bottom: 20px;}
+#yanzheng input{
+    margin: 10px 0;
+    width: 180px;
+    height: 30px;
+}
+
+/*头部工具条*/
+
+/*头部*/
+/*周边*/
+.nav{
+    height:41px;
+    margin:0 auto;
+    text-align:center;
+    padding:7px;
+    background:#2064C8;
+}
+.nav a{
+    text-decoration:none;
+    color: white;
+    font-size:1.2em;
+    margin:0 auto;
+    padding:9px 33px;
+    width:1200px;
+   line-height:27px;
+}
+/*.nav a:hover{
+    color: white;
+    background:dodgerblue;
+    bottom: 10px;
+}*/
+
+
+/*查询*/
+.container{
+    width: 50%;
+    float: left;
+    bottom: 50%;
+}
+.form-horizontal{
+    background: #aeb1b3;
+    /*半透明*/
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;opacity: 0.5;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+.form-horizontal .heading{
+    display: block;
+    font-size: 28px;
+    font-weight: 100;
+    padding: 35px 0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+}
+.form-horizontal .form-group{
+    padding: 0 40px;
+    margin: 0 0 25px 0;
+    position: relative;
+
+}
+.form-horizontal .form-control{
+    background: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 0 20px 0 45px;
+    height: 50px;
+    transition: all 0.3s ease 0s;
+}
+.form-horizontal .form-control:focus{
+    background: #e0e0e0;
+    box-shadow: none;
+    outline: 0 none;
+}
+.form-horizontal .fa-question-circle{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 60px;
+    font-size: 20px;
+    color: #808080;
+    transition: all 0.5s ease 0s;
+}
+.form-horizontal .fa-question-circle:hover{
+    color: #000;
+}
+.form-horizontal .btn{
+    float: right;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 9px 20px;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+}
+.pkg_info_item{
+    margin-right:50px;
+}
+/*火车票*/
+.linemask {
+    position:absolute;
+    top: 40px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background: url(http://img2.tuniucdn.com/img/20141217/train/linemask.png) repeat;
+    margin:210px 280px;
+    clear:bottom;
+}
+.kuCity_search{
+    z-index:99999999999999;
+}
+#J_PkgForm input{
+    width:150px;
+    height:30px;
+}
+#mydate{
+    margin: 10px;
+}
+#panel {
+    width: 70%;
+    height:50%;
+    margin-left:15%;
+    margin-top:10px;
+}
+#pane2 {
+    width:70%;
+    height:30%;
+    margin-left:15%;
+}
+#pane2 span{
+    font-size: 20px;
+    color: #00b3ee;
+}
+/*img--换*/
+#huan{
+    cursor: pointer;
+}
+h2{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 90px;
+}
+.clearfix h2 li a{
+    text-align: center;
+}
+.clearfix ul li{
+    display:inline-block;
+}
+ em {
+    font-size: 16px;
+    color: #aeb1b3;
+}
+ i{
+     font-size: 12px;
+ }
+.remen span{
+    margin: 0 15px;
+    font-size:15px;
+    color: orange;
+}
+.remen span em{
+    font-size: 12px;
+}
+.square p{
+    margin-left:20px;
+}
+/*媒体查询*/
+@media screen and (max-width: 1092px) {
+    .linemask {
+        position:absolute;
+        top: 90px;
+        left: 0px;
+    }
+}
+/*底部*/
+footer{position:absolute;bottom:0;width:100%;height:100px;background-color: #ffc0cb;}
+.footer { padding-bottom:20px;  background:#FFFFFF;}
+.footer .bz { padding: 40px 0; overflow: hidden; }
+.footer .bz li { float: left; display: block; width:148px; text-align:center }
+.footer .bz li a { display: block; margin: 0 auto; margin-bottom: 5px; transition: all .2s linear; width: 64px; height: 73px; }
+.footer .bz li:hover a { -webkit-transform: rotate(360deg); }
+.footer .bz li p { font-size: 16px; margin-left:10px;}
+.footer .btm_nav { height: 44px; background:#323232; line-height: 44px; color:#2D323B; text-align: center; }
+.footer .btm_nav a,
+.footer .btm_nav a:visited { font-size: 1.5em; margin: 0 10px; color: #ccc; transition: all .2s linear; }
+.footer .btm_nav a:hover { color: #fff; text-decoration: none; }
+.footer .btm_info { text-align: center; width:100%; height:auto; margin:0 auto; overflow:hidden;}
+.footer .btm_info p.a_tag { color: #ccc; margin-bottom:10px; }
+.footer .btm_info p.a_tag a,
+.footer .btm_info p.a_tag a:visited { margin: 0 5px; color: #ccc; }
+.footer .btm_info p.a_tag a:hover { color: #f80; }
+.footer .btm_info .ba { font-size: 1.2em; color: #666; padding: 15px 0; line-height:25px;text-align: center }
+.footer .btm_info .btm_info_img { width: 714px; margin: 0 auto; margin-bottom: 20px }
+.footer .btm_info .btm_info_img img { width: 107px; height: 48px; display: block; float: left; border: 1px solid #ddd; margin-left: 10px; }
+
+
+
